@@ -514,7 +514,7 @@ function layout() {
       <a class="brand" href="{{ '/' | relative_url }}">GMBA Case Study Library</a>
       <nav>
         <a href="{{ '/' | relative_url }}">Cases</a>
-        <a href="{{ '/theories.md' | relative_url }}">Theories</a>
+        <a href="{{ '/theories/' | relative_url }}">Theories</a>
       </nav>
     </header>
     <main class="page">
