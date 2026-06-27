@@ -34,9 +34,9 @@ This site organizes 21 business cases for GMBA discussion classes. Each case is 
 | 20 | [Peloton's Pandemic Rise and Crash]({{ '/cases/20-peloton-pandemic-crash/' | relative_url }}) | 2020-2023 | [Demand forecasting]({{ '/theories/' | relative_url }}#supply-chain-fit), [Pandemic strategy]({{ '/theories/' | relative_url }}#supply-chain-fit), [Operational flexibility]({{ '/theories/' | relative_url }}#dynamic-capabilities) |
 | 21 | [Uber Surge Pricing Ethics]({{ '/cases/21-uber-surge-pricing/' | relative_url }}) | 2014-Present | [Dynamic pricing]({{ '/theories/' | relative_url }}#strategic-pricing-and-value-capture), [Price gouging ethics]({{ '/theories/' | relative_url }}#perceived-price-fairness), [Behavioral economics]({{ '/theories/' | relative_url }}#perceived-price-fairness) |
 
-## Quick Reference by GMBA Topic
+## Quick Reference by Topic
 
-| GMBA Topic | Best Cases |
+| Topic | Cases |
 |-----------|------------|
 | Ethics & Fraud | [Theranos: The \$9 Billion Fraud]({{ '/cases/09-theranos-fraud/' | relative_url }}), [FTX Collapse and Sam Bankman-Fried]({{ '/cases/10-ftx-collapse/' | relative_url }}), [Volkswagen Dieselgate]({{ '/cases/04-volkswagen-dieselgate/' | relative_url }}), [Boeing 737 MAX Crashes]({{ '/cases/08-boeing-737-max/' | relative_url }}) |
 | Corporate Governance | [WeWork: From \$47 Billion to Bankruptcy]({{ '/cases/11-wework-bankruptcy/' | relative_url }}), [ChatGPT and OpenAI Board Drama]({{ '/cases/17-openai-board-drama/' | relative_url }}), [Meta's \$50B Metaverse Bet]({{ '/cases/18-meta-metaverse/' | relative_url }}), [FTX Collapse and Sam Bankman-Fried]({{ '/cases/10-ftx-collapse/' | relative_url }}) |
@@ -52,5 +52,5 @@ This site organizes 21 business cases for GMBA discussion classes. Each case is 
 ## How to Use This Site
 
 - Start with a case page and read the overview, debate question, and evidence prompts.
-- Follow the theory links to understand the relevant GMBA frameworks.
+- Follow the theory links to understand the relevant frameworks.
 - Use the PDF report links when a printable classroom handout is needed.
