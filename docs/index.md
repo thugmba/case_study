@@ -38,16 +38,16 @@ This site organizes 21 business cases for GMBA discussion classes. Each case is 
 
 | GMBA Topic | Best Cases |
 |-----------|------------|
-| Ethics & Fraud | Theranos, FTX, Volkswagen Dieselgate, Boeing 737 MAX |
-| Corporate Governance | WeWork, OpenAI, Meta Metaverse, FTX |
-| Turnaround & Transformation | LEGO, Microsoft |
-| Marketing & Branding | Coca-Cola New Coke |
-| Pricing Strategy | Netflix Password Sharing, Uber Surge, Airbnb Fees, Apple App Store, Adobe |
-| Crisis Management | Samsung Note 7, Boeing 737 MAX |
-| Platform Economics | Apple vs. Epic, Twitter/X, Airbnb, Uber |
-| Disruption | Blockbuster/Netflix, Kodak |
-| Labor & HR | Costco |
-| Strategic Failure | WeWork, Peloton, Meta, Blockbuster |
+| Ethics & Fraud | [Theranos: The \$9 Billion Fraud]({{ '/cases/09-theranos-fraud/' | relative_url }}), [FTX Collapse and Sam Bankman-Fried]({{ '/cases/10-ftx-collapse/' | relative_url }}), [Volkswagen Dieselgate]({{ '/cases/04-volkswagen-dieselgate/' | relative_url }}), [Boeing 737 MAX Crashes]({{ '/cases/08-boeing-737-max/' | relative_url }}) |
+| Corporate Governance | [WeWork: From \$47 Billion to Bankruptcy]({{ '/cases/11-wework-bankruptcy/' | relative_url }}), [ChatGPT and OpenAI Board Drama]({{ '/cases/17-openai-board-drama/' | relative_url }}), [Meta's \$50B Metaverse Bet]({{ '/cases/18-meta-metaverse/' | relative_url }}), [FTX Collapse and Sam Bankman-Fried]({{ '/cases/10-ftx-collapse/' | relative_url }}) |
+| Turnaround & Transformation | [LEGO's Near-Bankruptcy Turnaround]({{ '/cases/02-lego-turnaround/' | relative_url }}), [Microsoft's Cultural Transformation]({{ '/cases/16-microsoft-nadella/' | relative_url }}) |
+| Marketing & Branding | [Coca-Cola's New Coke Disaster]({{ '/cases/01-coca-cola-new-coke/' | relative_url }}) |
+| Pricing Strategy | [Netflix Password Sharing Crackdown]({{ '/cases/07-netflix-password-sharing/' | relative_url }}), [Uber Surge Pricing Ethics]({{ '/cases/21-uber-surge-pricing/' | relative_url }}), [Airbnb Hidden Cleaning Fees]({{ '/cases/12-airbnb-cleaning-fees/' | relative_url }}), [Apple's App Store Tax vs. Epic Games]({{ '/cases/15-apple-epic-app-store/' | relative_url }}), [Adobe's Subscription Model Shift]({{ '/cases/14-adobe-subscription-shift/' | relative_url }}) |
+| Crisis Management | [Samsung Galaxy Note 7 Explosions]({{ '/cases/03-samsung-note-7/' | relative_url }}), [Boeing 737 MAX Crashes]({{ '/cases/08-boeing-737-max/' | relative_url }}) |
+| Platform Economics | [Apple's App Store Tax vs. Epic Games]({{ '/cases/15-apple-epic-app-store/' | relative_url }}), [Twitter/X Under Elon Musk]({{ '/cases/13-twitter-x-musk/' | relative_url }}), [Airbnb Hidden Cleaning Fees]({{ '/cases/12-airbnb-cleaning-fees/' | relative_url }}), [Uber Surge Pricing Ethics]({{ '/cases/21-uber-surge-pricing/' | relative_url }}) |
+| Disruption | [Blockbuster Rejects Netflix]({{ '/cases/05-blockbuster-netflix/' | relative_url }}), [Kodak Invented the Digital Camera, Then Died]({{ '/cases/06-kodak-digital-camera/' | relative_url }}) |
+| Labor & HR | [Costco's Employee-First Model]({{ '/cases/19-costco-employee-first/' | relative_url }}) |
+| Strategic Failure | [WeWork: From \$47 Billion to Bankruptcy]({{ '/cases/11-wework-bankruptcy/' | relative_url }}), [Peloton's Pandemic Rise and Crash]({{ '/cases/20-peloton-pandemic-crash/' | relative_url }}), [Meta's \$50B Metaverse Bet]({{ '/cases/18-meta-metaverse/' | relative_url }}), [Blockbuster Rejects Netflix]({{ '/cases/05-blockbuster-netflix/' | relative_url }}) |
 
 ## How to Use This Site
 

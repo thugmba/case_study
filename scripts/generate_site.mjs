@@ -458,17 +458,18 @@ function reportFile(c, ext) {
 }
 
 function indexMarkdown() {
+  const titleToCasePath = new Map(cases.map((c) => [c.title, `{{ '/cases/${String(c.n).padStart(2, "0")}-${c.slug}/' | relative_url }}`]));
   const topicRows = [
-    ["Ethics & Fraud", "Theranos, FTX, Volkswagen Dieselgate, Boeing 737 MAX"],
-    ["Corporate Governance", "WeWork, OpenAI, Meta Metaverse, FTX"],
-    ["Turnaround & Transformation", "LEGO, Microsoft"],
-    ["Marketing & Branding", "Coca-Cola New Coke"],
-    ["Pricing Strategy", "Netflix Password Sharing, Uber Surge, Airbnb Fees, Apple App Store, Adobe"],
-    ["Crisis Management", "Samsung Note 7, Boeing 737 MAX"],
-    ["Platform Economics", "Apple vs. Epic, Twitter/X, Airbnb, Uber"],
-    ["Disruption", "Blockbuster/Netflix, Kodak"],
-    ["Labor & HR", "Costco"],
-    ["Strategic Failure", "WeWork, Peloton, Meta, Blockbuster"],
+    ["Ethics & Fraud", ["Theranos: The $9 Billion Fraud", "FTX Collapse and Sam Bankman-Fried", "Volkswagen Dieselgate", "Boeing 737 MAX Crashes"]],
+    ["Corporate Governance", ["WeWork: From $47 Billion to Bankruptcy", "ChatGPT and OpenAI Board Drama", "Meta's $50B Metaverse Bet", "FTX Collapse and Sam Bankman-Fried"]],
+    ["Turnaround & Transformation", ["LEGO's Near-Bankruptcy Turnaround", "Microsoft's Cultural Transformation"]],
+    ["Marketing & Branding", ["Coca-Cola's New Coke Disaster"]],
+    ["Pricing Strategy", ["Netflix Password Sharing Crackdown", "Uber Surge Pricing Ethics", "Airbnb Hidden Cleaning Fees", "Apple's App Store Tax vs. Epic Games", "Adobe's Subscription Model Shift"]],
+    ["Crisis Management", ["Samsung Galaxy Note 7 Explosions", "Boeing 737 MAX Crashes"]],
+    ["Platform Economics", ["Apple's App Store Tax vs. Epic Games", "Twitter/X Under Elon Musk", "Airbnb Hidden Cleaning Fees", "Uber Surge Pricing Ethics"]],
+    ["Disruption", ["Blockbuster Rejects Netflix", "Kodak Invented the Digital Camera, Then Died"]],
+    ["Labor & HR", ["Costco's Employee-First Model"]],
+    ["Strategic Failure", ["WeWork: From $47 Billion to Bankruptcy", "Peloton's Pandemic Rise and Crash", "Meta's $50B Metaverse Bet", "Blockbuster Rejects Netflix"]],
   ];
   return `---
 layout: default
@@ -490,7 +491,7 @@ ${cases.map((c) => `| ${c.n} | [${mdText(c.title)}]({{ '/cases/${String(c.n).pad
 
 | GMBA Topic | Best Cases |
 |-----------|------------|
-${topicRows.map((row) => `| ${row[0]} | ${row[1]} |`).join("\n")}
+${topicRows.map(([topic, titles]) => `| ${topic} | ${titles.map((title) => `[${mdText(title)}](${titleToCasePath.get(title)})`).join(", ")} |`).join("\n")}
 
 ## How to Use This Site
 
