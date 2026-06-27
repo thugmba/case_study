@@ -582,11 +582,12 @@ a:hover { text-decoration: underline; }
 
 .site-footer {
   max-width: 1180px;
-  margin: 0 auto;
-  padding: 18px 24px 28px;
+  margin: 0 auto 32px;
+  padding: 20px 24px 0;
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 14px;
+  text-align: center;
 }
 
 h1, h2, h3 {
