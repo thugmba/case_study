@@ -1,6 +1,6 @@
 ---
 title: "FTX Collapse and Sam Bankman-Fried"
-subtitle: "MBA Case Study Report (2022)"
+subtitle: "GMBA Case Study Report (2022)"
 date: "June 2026"
 format:
   pdf:

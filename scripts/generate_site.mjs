@@ -478,7 +478,7 @@ permalink: /
 
 # GMBA Case Study Library
 
-This site organizes 21 business cases for MBA discussion classes. Each case is a Markdown study page connected to the shared [Business and Management Theories]({{ '/theories/' | relative_url }}) guide.
+This site organizes 21 business cases for GMBA discussion classes. Each case is a Markdown study page connected to the shared [Business and Management Theories]({{ '/theories/' | relative_url }}) guide.
 
 ## Cases
 
@@ -486,16 +486,16 @@ This site organizes 21 business cases for MBA discussion classes. Each case is a
 |---:|------|--------|---------------|
 ${cases.map((c) => `| ${c.n} | [${mdText(c.title)}]({{ '/cases/${String(c.n).padStart(2, "0")}-${c.slug}/' | relative_url }}) | ${c.years} | ${c.theories.map((t) => `[${t}]({{ '/theories/' | relative_url }}#${theories[t]})`).join(", ")} |`).join("\n")}
 
-## Quick Reference by MBA Topic
+## Quick Reference by GMBA Topic
 
-| MBA Topic | Best Cases |
+| GMBA Topic | Best Cases |
 |-----------|------------|
 ${topicRows.map((row) => `| ${row[0]} | ${row[1]} |`).join("\n")}
 
 ## How to Use This Site
 
 - Start with a case page and read the overview, debate question, and evidence prompts.
-- Follow the theory links to understand the relevant MBA frameworks.
+- Follow the theory links to understand the relevant GMBA frameworks.
 - Use the PDF report links when a printable classroom handout is needed.
 `;
 }
@@ -520,6 +520,9 @@ function layout() {
     <main class="page">
       {{ content }}
     </main>
+    <footer class="site-footer">
+      Curated by Innovation Analytics Lab, Tunghai University
+    </footer>
   </body>
 </html>
 `;
@@ -574,6 +577,15 @@ a:hover { text-decoration: underline; }
   max-width: 1180px;
   margin: 0 auto;
   padding: 28px 24px 56px;
+}
+
+.site-footer {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 18px 24px 28px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 14px;
 }
 
 h1, h2, h3 {

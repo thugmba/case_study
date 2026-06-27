@@ -1,6 +1,6 @@
 ---
 title: "Kodak Invented the Digital Camera, Then Died"
-subtitle: "MBA Case Study Report (1975-2012)"
+subtitle: "GMBA Case Study Report (1975-2012)"
 date: "June 2026"
 format:
   pdf:

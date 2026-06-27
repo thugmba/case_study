@@ -1,6 +1,6 @@
 ---
 title: "WeWork: From $47 Billion to Bankruptcy"
-subtitle: "MBA Case Study Report (2019-2023)"
+subtitle: "GMBA Case Study Report (2019-2023)"
 date: "June 2026"
 format:
   pdf:

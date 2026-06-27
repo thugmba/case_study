@@ -281,7 +281,7 @@ function render(c) {
 
   return `---
 title: "${c.title.replaceAll('"', '\\"')}"
-subtitle: "MBA Case Study Report (${c.years})"
+subtitle: "GMBA Case Study Report (${c.years})"
 date: "June 2026"
 ${preamble}
 ---

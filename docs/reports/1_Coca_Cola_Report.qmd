@@ -1,6 +1,6 @@
 ---
 title: "Coca-Cola's New Coke Disaster"
-subtitle: "MBA Case Study Report (1985)"
+subtitle: "GMBA Case Study Report (1985)"
 date: "June 2026"
 format:
   pdf:

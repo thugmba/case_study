@@ -1,6 +1,6 @@
 ---
 title: "Theranos: The $9 Billion Fraud"
-subtitle: "MBA Case Study Report (2003-2018)"
+subtitle: "GMBA Case Study Report (2003-2018)"
 date: "June 2026"
 format:
   pdf:

@@ -1,6 +1,6 @@
 ---
 title: "Blockbuster Rejects Netflix"
-subtitle: "MBA Case Study Report (2000)"
+subtitle: "GMBA Case Study Report (2000)"
 date: "June 2026"
 format:
   pdf:

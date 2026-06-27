@@ -1,6 +1,6 @@
 ---
 title: "Volkswagen Dieselgate"
-subtitle: "MBA Case Study Report (2015)"
+subtitle: "GMBA Case Study Report (2015)"
 date: "June 2026"
 format:
   pdf:

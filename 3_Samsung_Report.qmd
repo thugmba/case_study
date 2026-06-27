@@ -1,6 +1,6 @@
 ---
 title: "Samsung Galaxy Note 7 Explosions"
-subtitle: "MBA Case Study Report (2016)"
+subtitle: "GMBA Case Study Report (2016)"
 date: "June 2026"
 format:
   pdf:

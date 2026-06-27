@@ -1,6 +1,6 @@
 ---
 title: "Meta's $50B Metaverse Bet"
-subtitle: "MBA Case Study Report (2021-Present)"
+subtitle: "GMBA Case Study Report (2021-Present)"
 date: "June 2026"
 format:
   pdf:

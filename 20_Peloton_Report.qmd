@@ -1,6 +1,6 @@
 ---
 title: "Peloton's Pandemic Rise and Crash"
-subtitle: "MBA Case Study Report (2020-2023)"
+subtitle: "GMBA Case Study Report (2020-2023)"
 date: "June 2026"
 format:
   pdf:

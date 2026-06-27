@@ -1,6 +1,6 @@
 ---
 title: "Boeing 737 MAX Crashes"
-subtitle: "MBA Case Study Report (2018-2019)"
+subtitle: "GMBA Case Study Report (2018-2019)"
 date: "June 2026"
 format:
   pdf:

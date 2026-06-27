@@ -1,11 +1,11 @@
-# MBA Case Study Report Template
+# GMBA Case Study Report Template
 
 
 ## Style Guide
 
 ### Document Metadata
 - **Title**: [Company Name]'s [Key Event/Challenge]
-- **Subtitle**: MBA Case Study Report ([Year Range])
+- **Subtitle**: GMBA Case Study Report ([Year Range])
 - **Date**: [Month Year]
 
 ### Document Settings

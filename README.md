@@ -1,4 +1,4 @@
-# MBA Case Studies for Discussion Classes
+# GMBA Case Studies for Discussion Classes
 
 21 case studies featuring **famous brands** and **high-stakes business decisions**.
 
@@ -17,7 +17,7 @@ To publish on GitHub Pages, set **Settings -> Pages -> Build and deployment -> S
 - Globally recognized brands
 - Real consequences (money lost, people affected, companies failed)
 - Strong business dilemmas and strategic debates
-- Rich in MBA theory applications
+- Rich in GMBA theory applications
 - Neutral topics suitable for multicultural classrooms
 
 ---
@@ -295,9 +295,9 @@ To publish on GitHub Pages, set **Settings -> Pages -> Build and deployment -> S
 
 ---
 
-## Quick Reference by MBA Topic
+## Quick Reference by GMBA Topic
 
-| MBA Topic | Best Cases |
+| GMBA Topic | Best Cases |
 |-----------|------------|
 | **Ethics & Fraud** | Theranos, FTX, VW Dieselgate, Boeing 737 MAX |
 | **Corporate Governance** | WeWork, OpenAI, Meta Metaverse, FTX |
@@ -324,4 +324,4 @@ To publish on GitHub Pages, set **Settings -> Pages -> Build and deployment -> S
 
 ---
 
-*21 Cases for MBA Discussion | June 2026*
+*21 Cases for GMBA Discussion | June 2026*

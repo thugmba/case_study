@@ -1,6 +1,6 @@
 ---
 title: "Costco's Employee-First Model"
-subtitle: "MBA Case Study Report (1983-Present)"
+subtitle: "GMBA Case Study Report (1983-Present)"
 date: "June 2026"
 format:
   pdf:

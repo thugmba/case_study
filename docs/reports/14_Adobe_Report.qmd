@@ -1,6 +1,6 @@
 ---
 title: "Adobe's Subscription Model Shift"
-subtitle: "MBA Case Study Report (2013)"
+subtitle: "GMBA Case Study Report (2013)"
 date: "June 2026"
 format:
   pdf:

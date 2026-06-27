@@ -4,7 +4,7 @@ For each theory, add a dedicated section to theories.md for explaining it briefl
 Create a wikipedia style site of case study in GitHub page.
 Each case study is a markdown file.
 In each case study markdown, cite the theories to theoreis.md.
-Thus, MBA student can study various case study in this site.
+Thus, GMBA student can study various case study in this site.
 Any questions?
 
 

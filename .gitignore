@@ -49,3 +49,6 @@ node_modules/
 tmp/
 temp/
 *.tmp
+
+*.qmd
+case_study/docs/reports/*.qmd

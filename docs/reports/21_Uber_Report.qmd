@@ -1,6 +1,6 @@
 ---
 title: "Uber Surge Pricing Ethics"
-subtitle: "MBA Case Study Report (2014-Present)"
+subtitle: "GMBA Case Study Report (2014-Present)"
 date: "June 2026"
 format:
   pdf:

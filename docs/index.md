@@ -6,7 +6,7 @@ permalink: /
 
 # GMBA Case Study Library
 
-This site organizes 21 business cases for MBA discussion classes. Each case is a Markdown study page connected to the shared [Business and Management Theories]({{ '/theories/' | relative_url }}) guide.
+This site organizes 21 business cases for GMBA discussion classes. Each case is a Markdown study page connected to the shared [Business and Management Theories]({{ '/theories/' | relative_url }}) guide.
 
 ## Cases
 
@@ -34,9 +34,9 @@ This site organizes 21 business cases for MBA discussion classes. Each case is a
 | 20 | [Peloton's Pandemic Rise and Crash]({{ '/cases/20-peloton-pandemic-crash/' | relative_url }}) | 2020-2023 | [Demand forecasting]({{ '/theories/' | relative_url }}#supply-chain-fit), [Pandemic strategy]({{ '/theories/' | relative_url }}#supply-chain-fit), [Operational flexibility]({{ '/theories/' | relative_url }}#dynamic-capabilities) |
 | 21 | [Uber Surge Pricing Ethics]({{ '/cases/21-uber-surge-pricing/' | relative_url }}) | 2014-Present | [Dynamic pricing]({{ '/theories/' | relative_url }}#strategic-pricing-and-value-capture), [Price gouging ethics]({{ '/theories/' | relative_url }}#perceived-price-fairness), [Behavioral economics]({{ '/theories/' | relative_url }}#perceived-price-fairness) |
 
-## Quick Reference by MBA Topic
+## Quick Reference by GMBA Topic
 
-| MBA Topic | Best Cases |
+| GMBA Topic | Best Cases |
 |-----------|------------|
 | Ethics & Fraud | Theranos, FTX, Volkswagen Dieselgate, Boeing 737 MAX |
 | Corporate Governance | WeWork, OpenAI, Meta Metaverse, FTX |
@@ -52,5 +52,5 @@ This site organizes 21 business cases for MBA discussion classes. Each case is a
 ## How to Use This Site
 
 - Start with a case page and read the overview, debate question, and evidence prompts.
-- Follow the theory links to understand the relevant MBA frameworks.
+- Follow the theory links to understand the relevant GMBA frameworks.
 - Use the PDF report links when a printable classroom handout is needed.

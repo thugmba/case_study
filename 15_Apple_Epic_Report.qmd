@@ -1,6 +1,6 @@
 ---
 title: "Apple's App Store Tax vs. Epic Games"
-subtitle: "MBA Case Study Report (2020-Present)"
+subtitle: "GMBA Case Study Report (2020-Present)"
 date: "June 2026"
 format:
   pdf:
