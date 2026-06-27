@@ -13,7 +13,7 @@ permalink: /cases/06-kodak-digital-camera/
     <dt>Category</dt><dd>Classic</dd>
     <dt>Core decision</dt><dd>Should companies cannibalize their own cash cows before competitors do?</dd>
   </dl>
-  <p><a href="{{ '/reports/6_Kodak_Report.pdf' | relative_url }}">PDF report</a> · <a href="{{ '/reports/6_Kodak_Report.qmd' | relative_url }}">QMD source</a></p>
+  <p><a href="{{ '/reports/6_Kodak_Report.pdf' | relative_url }}">PDF report</a></p>
 </aside>
 
 ## Overview

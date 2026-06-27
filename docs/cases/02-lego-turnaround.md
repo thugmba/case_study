@@ -13,7 +13,7 @@ permalink: /cases/02-lego-turnaround/
     <dt>Category</dt><dd>Classic</dd>
     <dt>Core decision</dt><dd>Should management cut products and reduce variety even when some lines appear successful?</dd>
   </dl>
-  <p><a href="{{ '/reports/2_LEGO_Report.pdf' | relative_url }}">PDF report</a> · <a href="{{ '/reports/2_LEGO_Report.qmd' | relative_url }}">QMD source</a></p>
+  <p><a href="{{ '/reports/2_LEGO_Report.pdf' | relative_url }}">PDF report</a></p>
 </aside>
 
 ## Overview

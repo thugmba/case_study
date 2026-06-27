@@ -1,7 +1,5 @@
 # Business and Management Theories Used in the Case Studies
 
-This guide consolidates the major theories and frameworks referenced across the case-study `.qmd` files. Each section gives a short explanation, common business examples, and a reputable reference URL.
-
 ## Customer-Based Brand Equity
 
 Customer-based brand equity explains how brand knowledge, associations, loyalty, and trust create value beyond the functional product itself. A strong brand can support premium pricing, repeat purchase, resilience during mistakes, and emotional attachment, but it can also make consumers more resistant when managers violate the brand's meaning.

@@ -13,7 +13,7 @@ permalink: /cases/03-samsung-note-7/
     <dt>Category</dt><dd>Classic</dd>
     <dt>Core decision</dt><dd>Should Samsung have killed the Note brand entirely, or separate the failed product from the broader brand?</dd>
   </dl>
-  <p><a href="{{ '/reports/3_Samsung_Report.pdf' | relative_url }}">PDF report</a> · <a href="{{ '/reports/3_Samsung_Report.qmd' | relative_url }}">QMD source</a></p>
+  <p><a href="{{ '/reports/3_Samsung_Report.pdf' | relative_url }}">PDF report</a></p>
 </aside>
 
 ## Overview

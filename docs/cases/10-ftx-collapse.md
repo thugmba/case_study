@@ -13,7 +13,7 @@ permalink: /cases/10-ftx-collapse/
     <dt>Category</dt><dd>Recent</dd>
     <dt>Core decision</dt><dd>Should crypto platforms be regulated like financial institutions that custody customer assets?</dd>
   </dl>
-  <p><a href="{{ '/reports/10_FTX_Report.pdf' | relative_url }}">PDF report</a> · <a href="{{ '/reports/10_FTX_Report.qmd' | relative_url }}">QMD source</a></p>
+  <p><a href="{{ '/reports/10_FTX_Report.pdf' | relative_url }}">PDF report</a></p>
 </aside>
 
 ## Overview

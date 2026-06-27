@@ -13,7 +13,7 @@ permalink: /cases/05-blockbuster-netflix/
     <dt>Category</dt><dd>Classic</dd>
     <dt>Core decision</dt><dd>Should incumbents invest in small, low-margin threats before those threats damage the core business?</dd>
   </dl>
-  <p><a href="{{ '/reports/5_Blockbuster_Report.pdf' | relative_url }}">PDF report</a> · <a href="{{ '/reports/5_Blockbuster_Report.qmd' | relative_url }}">QMD source</a></p>
+  <p><a href="{{ '/reports/5_Blockbuster_Report.pdf' | relative_url }}">PDF report</a></p>
 </aside>
 
 ## Overview

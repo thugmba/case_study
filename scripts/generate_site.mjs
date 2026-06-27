@@ -374,7 +374,6 @@ function caseFile(c) {
 }
 
 function caseMarkdown(c) {
-  const qmd = `{{ '/reports/${c.file ?? reportFile(c, "qmd")}' | relative_url }}`;
   const pdf = `{{ '/reports/${reportFile(c, "pdf")}' | relative_url }}`;
   return `---
 layout: default
@@ -391,7 +390,7 @@ permalink: /cases/${String(c.n).padStart(2, "0")}-${c.slug}/
     <dt>Category</dt><dd>${c.category}</dd>
     <dt>Core decision</dt><dd>${mdText(c.decision)}</dd>
   </dl>
-  <p><a href="${pdf}">PDF report</a> · <a href="${qmd}">QMD source</a></p>
+  <p><a href="${pdf}">PDF report</a></p>
 </aside>
 
 ## Overview
@@ -473,11 +472,11 @@ function indexMarkdown() {
   ];
   return `---
 layout: default
-title: MBA Case Study Library
+title: GMBA Case Study Library
 permalink: /
 ---
 
-# MBA Case Study Library
+# GMBA Case Study Library
 
 This site organizes 21 business cases for MBA discussion classes. Each case is a Markdown study page connected to the shared [Business and Management Theories]({{ '/theories/' | relative_url }}) guide.
 
@@ -507,12 +506,12 @@ function layout() {
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }} | MBA Case Study Library</title>
+    <title>{{ page.title }} | GMBA Case Study Library</title>
     <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="{{ '/' | relative_url }}">MBA Case Study Library</a>
+      <a class="brand" href="{{ '/' | relative_url }}">GMBA Case Study Library</a>
       <nav>
         <a href="{{ '/' | relative_url }}">Cases</a>
         <a href="{{ '/theories.md' | relative_url }}">Theories</a>
@@ -690,8 +689,8 @@ mkdirSync("docs/assets", { recursive: true });
 mkdirSync("docs/cases", { recursive: true });
 mkdirSync("docs/reports", { recursive: true });
 
-writeFileSync("docs/_config.yml", `title: MBA Case Study Library
-description: Wikipedia-style MBA case study library with linked management theories.
+writeFileSync("docs/_config.yml", `title: GMBA Case Study Library
+description: Wikipedia-style GMBA Case Study Library with linked management theories.
 markdown: kramdown
 `);
 writeFileSync("docs/_layouts/default.html", layout());

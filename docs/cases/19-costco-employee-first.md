@@ -13,7 +13,7 @@ permalink: /cases/19-costco-employee-first/
     <dt>Category</dt><dd>Recent</dd>
     <dt>Core decision</dt><dd>Can higher wages be an efficiency strategy rather than only a cost?</dd>
   </dl>
-  <p><a href="{{ '/reports/19_Costco_Report.pdf' | relative_url }}">PDF report</a> · <a href="{{ '/reports/19_Costco_Report.qmd' | relative_url }}">QMD source</a></p>
+  <p><a href="{{ '/reports/19_Costco_Report.pdf' | relative_url }}">PDF report</a></p>
 </aside>
 
 ## Overview

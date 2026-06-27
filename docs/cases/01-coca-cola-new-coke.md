@@ -13,7 +13,7 @@ permalink: /cases/01-coca-cola-new-coke/
     <dt>Category</dt><dd>Classic</dd>
     <dt>Core decision</dt><dd>Should Coca-Cola trust sensory research and competitive taste-test data, or protect the emotional equity of the original formula?</dd>
   </dl>
-  <p><a href="{{ '/reports/1_Coca_Cola_Report.pdf' | relative_url }}">PDF report</a> · <a href="{{ '/reports/1_Coca_Cola_Report.qmd' | relative_url }}">QMD source</a></p>
+  <p><a href="{{ '/reports/1_Coca_Cola_Report.pdf' | relative_url }}">PDF report</a></p>
 </aside>
 
 ## Overview

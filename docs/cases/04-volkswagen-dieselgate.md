@@ -13,7 +13,7 @@ permalink: /cases/04-volkswagen-dieselgate/
     <dt>Category</dt><dd>Classic</dd>
     <dt>Core decision</dt><dd>How should responsibility be assigned when misconduct is embedded in technical systems and organizational pressure?</dd>
   </dl>
-  <p><a href="{{ '/reports/4_Volkswagen_Report.pdf' | relative_url }}">PDF report</a> · <a href="{{ '/reports/4_Volkswagen_Report.qmd' | relative_url }}">QMD source</a></p>
+  <p><a href="{{ '/reports/4_Volkswagen_Report.pdf' | relative_url }}">PDF report</a></p>
 </aside>
 
 ## Overview

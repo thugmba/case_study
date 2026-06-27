@@ -13,7 +13,7 @@ permalink: /cases/20-peloton-pandemic-crash/
     <dt>Category</dt><dd>Recent</dd>
     <dt>Core decision</dt><dd>How should companies distinguish temporary demand spikes from durable shifts?</dd>
   </dl>
-  <p><a href="{{ '/reports/20_Peloton_Report.pdf' | relative_url }}">PDF report</a> · <a href="{{ '/reports/20_Peloton_Report.qmd' | relative_url }}">QMD source</a></p>
+  <p><a href="{{ '/reports/20_Peloton_Report.pdf' | relative_url }}">PDF report</a></p>
 </aside>
 
 ## Overview

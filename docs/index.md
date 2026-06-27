@@ -1,10 +1,10 @@
 ---
 layout: default
-title: MBA Case Study Library
+title: GMBA Case Study Library
 permalink: /
 ---
 
-# MBA Case Study Library
+# GMBA Case Study Library
 
 This site organizes 21 business cases for MBA discussion classes. Each case is a Markdown study page connected to the shared [Business and Management Theories]({{ '/theories/' | relative_url }}) guide.
 

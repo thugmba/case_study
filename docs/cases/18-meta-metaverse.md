@@ -13,7 +13,7 @@ permalink: /cases/18-meta-metaverse/
     <dt>Category</dt><dd>Recent</dd>
     <dt>Core decision</dt><dd>How long should a company fund a strategic bet before evidence of adoption arrives?</dd>
   </dl>
-  <p><a href="{{ '/reports/18_Meta_Report.pdf' | relative_url }}">PDF report</a> · <a href="{{ '/reports/18_Meta_Report.qmd' | relative_url }}">QMD source</a></p>
+  <p><a href="{{ '/reports/18_Meta_Report.pdf' | relative_url }}">PDF report</a></p>
 </aside>
 
 ## Overview

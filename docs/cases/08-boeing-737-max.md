@@ -13,7 +13,7 @@ permalink: /cases/08-boeing-737-max/
     <dt>Category</dt><dd>Recent</dd>
     <dt>Core decision</dt><dd>How should accountability be assigned when cost, schedule, safety, and regulatory communication interact?</dd>
   </dl>
-  <p><a href="{{ '/reports/8_Boeing_Report.pdf' | relative_url }}">PDF report</a> · <a href="{{ '/reports/8_Boeing_Report.qmd' | relative_url }}">QMD source</a></p>
+  <p><a href="{{ '/reports/8_Boeing_Report.pdf' | relative_url }}">PDF report</a></p>
 </aside>
 
 ## Overview

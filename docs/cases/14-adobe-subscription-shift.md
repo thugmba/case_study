@@ -13,7 +13,7 @@ permalink: /cases/14-adobe-subscription-shift/
     <dt>Category</dt><dd>Recent</dd>
     <dt>Core decision</dt><dd>When should a company force customers into a new business model?</dd>
   </dl>
-  <p><a href="{{ '/reports/14_Adobe_Report.pdf' | relative_url }}">PDF report</a> · <a href="{{ '/reports/14_Adobe_Report.qmd' | relative_url }}">QMD source</a></p>
+  <p><a href="{{ '/reports/14_Adobe_Report.pdf' | relative_url }}">PDF report</a></p>
 </aside>
 
 ## Overview

@@ -13,7 +13,7 @@ permalink: /cases/09-theranos-fraud/
     <dt>Category</dt><dd>Recent</dd>
     <dt>Core decision</dt><dd>Where is the line between founder vision and fraud?</dd>
   </dl>
-  <p><a href="{{ '/reports/9_Theranos_Report.pdf' | relative_url }}">PDF report</a> · <a href="{{ '/reports/9_Theranos_Report.qmd' | relative_url }}">QMD source</a></p>
+  <p><a href="{{ '/reports/9_Theranos_Report.pdf' | relative_url }}">PDF report</a></p>
 </aside>
 
 ## Overview

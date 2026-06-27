@@ -13,7 +13,7 @@ permalink: /cases/12-airbnb-cleaning-fees/
     <dt>Category</dt><dd>Recent</dd>
     <dt>Core decision</dt><dd>Should platforms mandate all-in pricing even when hosts set many of the fees?</dd>
   </dl>
-  <p><a href="{{ '/reports/12_Airbnb_Report.pdf' | relative_url }}">PDF report</a> · <a href="{{ '/reports/12_Airbnb_Report.qmd' | relative_url }}">QMD source</a></p>
+  <p><a href="{{ '/reports/12_Airbnb_Report.pdf' | relative_url }}">PDF report</a></p>
 </aside>
 
 ## Overview

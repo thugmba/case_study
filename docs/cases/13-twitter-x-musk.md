@@ -13,7 +13,7 @@ permalink: /cases/13-twitter-x-musk/
     <dt>Category</dt><dd>Recent</dd>
     <dt>Core decision</dt><dd>Can a large social platform be transformed through founder-style speed and unilateral control?</dd>
   </dl>
-  <p><a href="{{ '/reports/13_Twitter_Report.pdf' | relative_url }}">PDF report</a> · <a href="{{ '/reports/13_Twitter_Report.qmd' | relative_url }}">QMD source</a></p>
+  <p><a href="{{ '/reports/13_Twitter_Report.pdf' | relative_url }}">PDF report</a></p>
 </aside>
 
 ## Overview
