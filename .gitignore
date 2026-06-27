@@ -52,3 +52,5 @@ temp/
 
 *.qmd
 case_study/docs/reports/*.qmd
+
+todo.md
