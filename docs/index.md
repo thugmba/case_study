@@ -11,7 +11,7 @@ This site organizes 29 business cases for GMBA discussion classes. Each case is 
 ## Cases
 
 | # | Case | Period | Main theories |
-|---:|------|--------|---------------|
+| :---: | :--- | :---: | :--- |
 | 1 | [Coca-Cola's New Coke Disaster]({{ '/cases/01-coca-cola-new-coke/' | relative_url }}) | 1985 | [Brand equity]({{ '/theories/' | relative_url }}#customer-based-brand-equity), [Consumer psychology]({{ '/theories/' | relative_url }}#customer-based-brand-equity), [Market research limits]({{ '/theories/' | relative_url }}#defensive-marketing-strategy) |
 | 2 | [LEGO's Near-Bankruptcy Turnaround]({{ '/cases/02-lego-turnaround/' | relative_url }}) | 2003-2015 | [Corporate turnaround]({{ '/theories/' | relative_url }}#dynamic-capabilities), [Focus strategy]({{ '/theories/' | relative_url }}#knowledge-based-view-coordination-and-organizational-identity), [Brand extension limits]({{ '/theories/' | relative_url }}#brand-extension-theory) |
 | 3 | [Samsung Galaxy Note 7 Explosions]({{ '/cases/03-samsung-note-7/' | relative_url }}) | 2016 | [Crisis management]({{ '/theories/' | relative_url }}#situational-crisis-communication-theory), [Quality control]({{ '/theories/' | relative_url }}#swiss-cheese-model-of-organizational-accidents), [Supply chain pressure]({{ '/theories/' | relative_url }}#supply-chain-fit), [Product recall]({{ '/theories/' | relative_url }}#situational-crisis-communication-theory) |

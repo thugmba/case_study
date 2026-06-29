@@ -628,7 +628,7 @@ This site organizes 29 business cases for GMBA discussion classes. Each case is 
 ## Cases
 
 | # | Case | Period | Main theories |
-|---:|------|--------|---------------|
+| :---: | :--- | :---: | :--- |
 ${cases.map((c) => `| ${c.n} | [${mdText(c.title)}]({{ '/cases/${String(c.n).padStart(2, "0")}-${c.slug}/' | relative_url }}) | ${c.years} | ${c.theories.map((t) => `[${t}]({{ '/theories/' | relative_url }}#${theories[t]})`).join(", ")} |`).join("\n")}
 
 ## Quick Reference by GMBA Topic
@@ -766,7 +766,7 @@ table {
 th, td {
   border: 1px solid var(--line);
   padding: 8px 10px;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 th {
