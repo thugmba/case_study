@@ -30,7 +30,9 @@
 > **Note**: Helvetica Neue is preferred for its clean, professional look commonly used in McKinsey, BCG, and Bain reports. Use TeX Gyre Heros for LaTeX/Quarto environments. Calibri as a fallback for compatibility.
 
 ### Formatting Rules
-- **Headings**: Title case, no period at the end
+- **Headings**: Title case, no period at the end. Follow these numbering hygiene rules:
+  - **Do Not Hardcode Heading Numbers**: In the QMD source files, never manually prefix headings with numeric indicators (e.g., do not write `# 1. Case Study Title` or `## 1.1 Objectives`). Let Quarto's `number-sections: true` dynamically handle the numbering. This prevents duplicate numbers in the generated Table of Contents and PDF section headers.
+  - **Suppressing Numbering**: For sections that should not be numbered (such as "References" or "Appendices"), use Quarto's `{.unnumbered}` class tag. For example: `## References (APA 7th Edition) {.unnumbered}`. This removes the numbering prefix while keeping the section in the document outline and TOC.
 - **Lists**: Use bullet points for unordered lists, numbers for sequential steps
 - **Tables**: Use raw LaTeX `longtable` tables for PDF output rather than Markdown pipe tables when row shading is required. Wrap each table in `\begingroup\small` and `\endgroup`, define fixed-width `p{...}` columns, and apply shading explicitly with `\rowcolor{lightgray}` on the header row and alternating body rows. In the PDF preamble, load `booktabs`, `array`, and `colortbl`, define `lightgray` as `#F5F5F5`, and set `\setlength{\aboverulesep}{0pt}` and `\setlength{\belowrulesep}{0pt}` so horizontal rules touch shaded rows cleanly. Do not use global `\AtBeginEnvironment{longtable}{\rowcolors{...}}` for these reports; Pandoc-generated Markdown tables can produce gray bands that extend beyond the booktabs rules.
 - **References**: Include only real, verified sources. Prioritize academic articles, books, published case studies, reputable industry reports, company filings/official archives, and high-quality business journalism. Verify academic sources through Google Scholar when possible; if Google Scholar is inaccessible, use another scholarly index, publisher page, DOI resolver, university library record, Crossref, JSTOR, SSRN, ScienceDirect, Wiley, Springer, Taylor & Francis, Emerald, or the journal's official site. Every included URL or DOI must be accessible and clickable using `<url>` or `[url](url)` format. If a source is real but no accessible URL can be verified, cite it without a link. Under every reference item, add a concise `Relevance:` note explaining why the source is used in this specific case study. Never invent article titles, authors, journals, volumes, page ranges, DOIs, URLs, datasets, or relevance claims.
@@ -109,6 +111,95 @@ Use this footer setup in `format.pdf.include-in-header.text` so the first page a
 - Professional, objective, third-person perspective
 - Avoid jargon unless defined
 - Present facts without bias; let readers form their own conclusions
+
+
+## PDF Generation & Compilation Rules
+
+### 1. Compiling Individual Case Reports
+To compile any single case report `.qmd` file to a standalone PDF:
+- Use the command:
+  ```bash
+  quarto render <filename>.qmd --to pdf
+  ```
+- **Document Class**: Use `scrartcl` (KOMA-Script Article).
+- **Footer**: Ensure the custom page footer setup (from the Footer Preamble) is included. Under the KOMA-Script settings, page numbers start at Arabic `1` on the first page, and the footer reads: "Innovation Analytics Lab" (left) | Page Number (center) | "Tunghai University" (right).
+- **Title Block**: No separate cover page; the title and content start on the same page.
+
+### 2. Compiling the Merged Volume (All Cases)
+To compile all 29 case studies into a single unified PDF:
+- **Merging Strategy**: Use a script (e.g., in Node.js or Python) to merge the files in numerical order.
+- **Heading Demotion**:
+  - Insert a new top-level H1 header (`# [Case Title]`) for each case study.
+  - Demote all internal headers within the case study by one level (e.g., `#` becomes `##`, `##` becomes `###`) to ensure a correct outline.
+  - Use `\newpage` between case studies so each report starts on its own page.
+- **Table of Contents (TOC)**:
+  - Configure `toc: true` and `toc-depth: 1` in the YAML header to only display the case study titles in the TOC.
+  - Force the TOC to fit on a single page by reducing the vertical skip between sections and setting single line spacing locally:
+    ```latex
+    \RedeclareSectionCommand[tocbeforeskip=2pt]{section}
+    \usepackage{setspace}
+    \let\oldtableofcontents\tableofcontents
+    \renewcommand{\tableofcontents}{%
+      \begingroup
+      \singlespacing
+      \oldtableofcontents
+      \endgroup
+    }
+    ```
+- **Page Numbering Rules**:
+  - Format the front matter (title block and Table of Contents) with Roman page numbers starting at `i` (set `\AtBeginDocument{\pagenumbering{roman}}` in the YAML header).
+  - Transition to Arabic page numbers starting at `1` for the main content by inserting the following LaTeX code right before the first case study:
+    ```latex
+    \newpage
+    \pagenumbering{arabic}
+    \setcounter{page}{1}
+    ```
+- **Alphabetical Two-Column Index**:
+  - Load the `makeidx` package and call `\makeindex` in the header configuration.
+  - Insert `\index{Keyword}` tags dynamically on the first occurrence of each designated keyword (covering companies, theories, and key terms) per case study. Special characters like `&` and `%` must be escaped as `\&` and `\%` in the index tags to compile cleanly.
+  - Append `\phantomsection` and `\addcontentsline{toc}{section}{Index}` followed by `\printindex` at the end of the document.
+  - Configure `classoption: [DIV=11, numbers=noendperiod, index=totoc]` in the YAML metadata to ensure the Index is registered in the Table of Contents.
+- **Compilation Command**:
+  ```bash
+  quarto render <merged_filename>.qmd --to pdf
+  ```
+
+### 3. System Prerequisites & Dependencies
+To ensure successful compilation:
+- **LaTeX Engine**: Use `lualatex` as it supports system fonts out-of-the-box in Quarto.
+- **System Fonts**: The template utilizes `"TeX Gyre Heros"` as the primary sans-serif font, `"TeX Gyre Cursor"` as the monospace font, and falls back to standard system Helvetica.
+- **LaTeX Packages**: The compilation environment must have the following TeX packages installed:
+  - `setspace` (for controlling line spacing)
+  - `fancyhdr` (for custom headers and footers)
+  - `booktabs` (for professional horizontal rules)
+  - `colortbl` (for colored table rows)
+  - `longtable` (for multi-page tables)
+  - `needspace` (for preventing orphan headings)
+  - `etoolbox` (for TeX patch utilities)
+
+### 4. Automation & Maintenance Scripts
+The project provides automated scripts located in `scripts/` to generate and compile case notes:
+- **Case Report Generator**: Runs on Node.js. It compiles metadata definitions in `generate_reports.mjs` to output individual `.qmd` case notes:
+  ```bash
+  node scripts/generate_reports.mjs
+  ```
+- **Case Volume Merger**: Scans the workspace directory, merges all 29 case study files in numerical order, demotes heading levels, and compiles the volume:
+  ```bash
+  node scripts/merge_reports.mjs
+  ```
+
+### 5. Layout Tuning & Page-Break Management
+To prevent unprofessional gaps, awkward page breaks, and orphaned headings in the rendered PDFs:
+- **Orphan Headings**: Insert `\needspace{4\baselineskip}` immediately before section headers if they appear near the bottom of a page to force the heading and text to stay together.
+- **Table Formatting**: Ensure all tables use standard relative column widths (e.g. `p{0.32\linewidth}`) and sum up to no more than `0.95` of the line width to prevent margin clipping.
+- **Forced Page Breaks**: Use `\newpage` between major sections (like between case studies) to give each case study a clean start.
+
+### 6. Reference Verification Checklist
+Before committing new case reports or compiling the merged PDF, verify all citations against the following auditing rules:
+1. **Factuality**: Verify the publication title, authors, volume, and pages on a scholarly index like Google Scholar. Do not invent metrics or relevance statements.
+2. **Relevance**: Every citation must contain a `Relevance:` statement describing exactly how it supports the strategic, operational, data-science, or ethical argument of the case.
+3. **Clickability**: All URL links and DOIs must be live, active, and formatted cleanly using `<url>` or standard markdown links.
+4. **Academics**: Include at least two academic peer-reviewed sources for each case study if scholarly material exists.
 
 
 ## 1. Key Questions & Case Objectives

@@ -295,20 +295,127 @@ To publish on GitHub Pages, set **Settings -> Pages -> Build and deployment -> S
 
 ---
 
+## World-Class Taiwanese Companies (8 Cases)
+
+### 22. TSMC and Semiconductor Geopolitics (2020-Present)
+📄 [Report (PDF)](file:///home/sun/Projects/case_studies/22_TSMC_Report.pdf) | [Source (QMD)](file:///home/sun/Projects/case_studies/22_TSMC_Report.qmd)
+
+**The Issue**: TSMC faced geopolitical pressure to diversify its manufacturing outside Taiwan, leading to the construction of advanced fabs in the US, Japan, and Europe.
+
+| Theory Connection | Why It Matters |
+|-------------------|----------------|
+| Operations strategy, supply chain risk, geopolitics in business | Tests the trade-offs of global supply chain localization vs. domestic R&D yield benefits |
+
+**Debate**: Should TSMC prioritize domestic yield efficiency over global supply chain diversification?
+
+---
+
+### 23. Foxconn's EV Platform Transformation (2020-Present)
+📄 [Report (PDF)](file:///home/sun/Projects/case_studies/23_Foxconn_EV_Report.pdf) | [Source (QMD)](file:///home/sun/Projects/case_studies/23_Foxconn_EV_Report.qmd)
+
+**The Issue**: Foxconn transitioned from consumer electronics assembly to the electric vehicle market, establishing the open-source MIH platform.
+
+| Theory Connection | Why It Matters |
+|-------------------|----------------|
+| Corporate transformation, platform economics, diversification strategy | Evaluates if open platform standards can commoditize automotive manufacturing |
+
+**Debate**: Can open-source platforms successfully commoditize contract manufacturing in the automotive sector?
+
+---
+
+### 24. MediaTek Premium Chip Challenger (2021-Present)
+📄 [Report (PDF)](file:///home/sun/Projects/case_studies/24_MediaTek_Report.pdf) | [Source (QMD)](file:///home/sun/Projects/case_studies/24_MediaTek_Report.qmd)
+
+**The Issue**: MediaTek launched its Dimensity processor series to challenge Qualcomm in the premium phone processor market.
+
+| Theory Connection | Why It Matters |
+|-------------------|----------------|
+| Competitive strategy, high-tech marketing, brand migration strategy | Explores how a cost-leader brand can successfully migrate upmarket to high-tier segments |
+
+**Debate**: Can a high-volume, low-cost component manufacturer successfully reposition its brand to the premium segment?
+
+---
+
+### 25. Giant Bicycles OEM to Global Brand (1981-Present)
+📄 [Report (PDF)](file:///home/sun/Projects/case_studies/25_Giant_Bicycles_Report.pdf) | [Source (QMD)](file:///home/sun/Projects/case_studies/25_Giant_Bicycles_Report.qmd)
+
+**The Issue**: Giant transitioned from a major OEM assembler for Schwinn to building the world's largest proprietary bicycle brand.
+
+| Theory Connection | Why It Matters |
+|-------------------|----------------|
+| OEM to OBM transition, channel conflict, brand equity | Classic study of managing channel conflicts when competing with OEM clients |
+
+**Debate**: Should manufacturers compete directly with their own OEM customer base by launching proprietary brands?
+
+---
+
+### 26. ASUS Republic of Gamers Sub-Branding (2006-Present)
+📄 [Report (PDF)](file:///home/sun/Projects/case_studies/26_ASUS_ROG_Report.pdf) | [Source (QMD)](file:///home/sun/Projects/case_studies/26_ASUS_ROG_Report.qmd)
+
+**The Issue**: ASUS established the ROG sub-brand to escape computer hardware price wars and build a high-margin ecosystem.
+
+| Theory Connection | Why It Matters |
+|-------------------|----------------|
+| Brand architecture, sub-branding, gaming ecosystem strategy | Demonstrates sub-branding to capture high-margin segments in commodity markets |
+
+**Debate**: Is sub-branding or corporate branding more effective for sustaining growth in declining hardware sectors?
+
+---
+
+### 27. Delta Power Components to Green Systems (2010-Present)
+📄 [Report (PDF)](file:///home/sun/Projects/case_studies/27_Delta_Electronics_Report.pdf) | [Source (QMD)](file:///home/sun/Projects/case_studies/27_Delta_Electronics_Report.qmd)
+
+**The Issue**: Delta transitioned from power supplies components to smart industrial automation, green energy, and EV charging solutions.
+
+| Theory Connection | Why It Matters |
+|-------------------|----------------|
+| Industrial transformation, systems integration, B2B solution marketing | Illustrates B2B value chain migration from components to systems solutions |
+
+**Debate**: Should component vendors take the risk of offering integrated systems, potentially competing with system-integrator customers?
+
+---
+
+### 28. E Ink Patent Acquisition and Monopoly (2009-Present)
+📄 [Report (PDF)](file:///home/sun/Projects/case_studies/28_E_Ink_Report.pdf) | [Source (QMD)](file:///home/sun/Projects/case_studies/28_E_Ink_Report.qmd)
+
+**The Issue**: E Ink acquired MIT spin-off technology to dominate the global electronic paper display (EPD) industry.
+
+| Theory Connection | Why It Matters |
+|-------------------|----------------|
+| M&A technology acquisition, patent portfolio strategy, niche monopoly | Highlights patent control and technology acquisition strategy for market dominance |
+
+**Debate**: Is buying intellectual property more sustainable than organic R&D for dominating high-tech markets?
+
+---
+
+### 29. Evergreen Marine Capital Allocation (2020-Present)
+📄 [Report (PDF)](file:///home/sun/Projects/case_studies/29_Evergreen_Marine_Report.pdf) | [Source (QMD)](file:///home/sun/Projects/case_studies/29_Evergreen_Marine_Report.qmd)
+
+**The Issue**: Evergreen Marine generated record profits during the COVID-19 boom, forcing choices on fleet expansion, green fuel transition, and dividends.
+
+| Theory Connection | Why It Matters |
+|-------------------|----------------|
+| Cyclical industry strategy, capital allocation, carbon transition | Evaluates strategic cash management and asset investment in highly cyclical markets |
+
+**Debate**: Should cyclical shipping firms hold massive cash reserves or aggressively invest in fleet renewal during industry peaks?
+
+---
+
 ## Quick Reference by GMBA Topic
 
 | GMBA Topic | Best Cases |
 |-----------|------------|
 | **Ethics & Fraud** | Theranos, FTX, VW Dieselgate, Boeing 737 MAX |
-| **Corporate Governance** | WeWork, OpenAI, Meta Metaverse, FTX |
-| **Turnaround & Transformation** | LEGO, Microsoft Nadella |
-| **Marketing & Branding** | Coca-Cola New Coke |
+| **Corporate Governance** | WeWork, OpenAI, Meta Metaverse, FTX, Evergreen |
+| **Turnaround & Transformation** | LEGO, Microsoft Nadella, Foxconn EV, Delta Electronics |
+| **Marketing & Branding** | Coca-Cola New Coke, MediaTek, Giant Bicycles, ASUS ROG |
 | **Pricing Strategy** | Netflix Password, Uber Surge, Airbnb Fees, Apple App Store, Adobe |
 | **Crisis Management** | Samsung Note 7, Boeing |
-| **Platform Economics** | Apple vs Epic, Twitter/X, Airbnb |
-| **Disruption** | Blockbuster/Netflix, Kodak |
+| **Platform Economics** | Apple vs Epic, Twitter/X, Airbnb, Foxconn EV |
+| **Disruption** | Blockbuster/Netflix, Kodak, E Ink, Foxconn EV |
 | **Labor & HR** | Costco |
 | **Strategic Failure** | WeWork, Peloton, Meta Metaverse, Blockbuster |
+| **Supply Chain & Operations** | TSMC, Delta Electronics, Evergreen |
 
 ---
 
@@ -324,4 +431,4 @@ To publish on GitHub Pages, set **Settings -> Pages -> Build and deployment -> S
 
 ---
 
-*21 Cases for GMBA Discussion | June 2026*
+*29 Cases for GMBA Discussion | June 2026*

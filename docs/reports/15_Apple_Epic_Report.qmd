@@ -73,7 +73,7 @@ format:
 
 # Key Questions & Case Objectives
 
-This case study addresses three high-order management questions through the lens of **Apple's** app store tax vs. epic games. The issue is not only a famous business story; it is a decision problem about how leaders use evidence, protect stakeholders, and act when strategy, incentives, and public trust collide.
+This case study addresses three high-order management questions through the lens of **Apple's** apple's app store tax vs. epic games. The issue is not only a famous business story; it is a decision problem about how leaders use evidence, protect stakeholders, and act when strategy, incentives, and public trust collide.
 
 1. **Strategy & Value Creation**
    - How can data-driven decision-making create sustainable competitive advantage?

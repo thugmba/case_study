@@ -61,6 +61,29 @@ const theories = {
   "Dynamic pricing": "strategic-pricing-and-value-capture",
   "Price gouging ethics": "perceived-price-fairness",
   "Behavioral economics": "perceived-price-fairness",
+  "Operations strategy": "supply-chain-fit",
+  "Global supply chain risk": "supply-chain-fit",
+  "Geopolitics in business": "dynamic-capabilities",
+  "Corporate transformation": "dynamic-capabilities",
+  "Platform economics": "two-sided-markets",
+  "Diversification strategy": "dynamic-capabilities",
+  "Competitive strategy": "defensive-marketing-strategy",
+  "High-tech marketing": "defensive-marketing-strategy",
+  "Brand migration strategy": "brand-extension-theory",
+  "OEM to OBM transition": "brand-extension-theory",
+  "Channel conflict": "two-sided-markets",
+  "Brand architecture": "brand-extension-theory",
+  "Sub-branding": "brand-extension-theory",
+  "Gaming ecosystem strategy": "platform-governance-and-network-effects",
+  "Industrial transformation": "dynamic-capabilities",
+  "Systems integration": "business-model-innovation",
+  "B2B solution marketing": "strategic-pricing-and-value-capture",
+  "M&A technology acquisition": "agency-theory",
+  "Patent portfolio strategy": "defensive-marketing-strategy",
+  "Niche monopoly": "strategic-pricing-and-value-capture",
+  "Cyclical industry strategy": "dynamic-capabilities",
+  "Capital allocation": "corporate-governance-and-separation-of-ownership-and-control",
+  "Carbon transition": "greenwashing-and-environmental-ethics",
 };
 
 const cases = [
@@ -358,6 +381,118 @@ const cases = [
     debate: "Is surge pricing fair, and should there be caps during emergencies?",
     evidence: ["Higher prices can attract drivers and ration scarce rides.", "Customers perceive emergency price spikes as exploitation.", "Caps can improve legitimacy but may reduce market-clearing efficiency."],
   },
+  {
+    n: 22,
+    slug: "tsmc-semiconductor-geopolitics",
+    title: "TSMC and Semiconductor Geopolitics",
+    years: "2020-Present",
+    category: "Recent",
+    company: "TSMC",
+    issue: "TSMC faced geopolitical pressure to diversify its manufacturing outside Taiwan, leading to the construction of advanced fabrication plants in the United States, Japan, and Europe while maintaining its core R&D in Taiwan.",
+    decision: "Should TSMC prioritize domestic yield efficiency over global supply chain diversification?",
+    theories: ["Operations strategy", "Global supply chain risk", "Geopolitics in business"],
+    why: "It illustrates the trade-offs of global supply chain localization under geopolitical pressure.",
+    debate: "Should TSMC prioritize domestic yield efficiency over global supply chain diversification?",
+    evidence: ["Fabs in the US and Germany face higher operating and construction costs.", "Maintaining core R&D in Taiwan protects the yield-learning rate.", "Geopolitical diversification reduces concentration risk for global customers."],
+  },
+  {
+    n: 23,
+    slug: "foxconn-ev-platform",
+    title: "Foxconn's EV Platform Transformation",
+    years: "2020-Present",
+    category: "Recent",
+    company: "Foxconn",
+    issue: "Foxconn transitioned from consumer electronics assembly to the electric vehicle market, establishing the open-source MIH platform to modularize EV design and manufacturing.",
+    decision: "Can open-source platforms successfully commoditize contract manufacturing in the automotive sector?",
+    theories: ["Corporate transformation", "Platform economics", "Diversification strategy"],
+    why: "It tests whether smartphone-style modular manufacturing can succeed in the asset-heavy automotive industry.",
+    debate: "Can open-source platforms successfully commoditize contract manufacturing in the automotive sector?",
+    evidence: ["MIH open-source platform aims to reduce EV design and manufacturing cycles.", "Automotive safety regulations and branding differ from consumer hardware.", "Traditional automotive giants maintain proprietary control over their hardware."],
+  },
+  {
+    n: 24,
+    slug: "mediatek-premium-chip",
+    title: "MediaTek Premium Chip Challenger",
+    years: "2021-Present",
+    category: "Recent",
+    company: "MediaTek",
+    issue: "MediaTek launched its Dimensity processor series to shift from entry-level and mid-range mobile markets to direct competition with Qualcomm in the premium mobile chip segment.",
+    decision: "Can a high-volume, low-cost component manufacturer successfully reposition its brand to the premium segment?",
+    theories: ["Competitive strategy", "High-tech marketing", "Brand migration strategy"],
+    why: "It illustrates the strategic and branding challenges of moving a brand upmarket.",
+    debate: "Can a high-volume, low-cost component manufacturer successfully reposition its brand to the premium segment?",
+    evidence: ["MediaTek's Dimensity chips achieved competitive parity in raw benchmarks.", "Premium OEMs still hold high affinity for Qualcomm's brand equity.", "The transition requires high upfront research investments and premium marketing."],
+  },
+  {
+    n: 25,
+    slug: "giant-bicycles-brand",
+    title: "Giant Bicycles OEM to Global Brand",
+    years: "1981-Present",
+    category: "Recent",
+    company: "Giant Manufacturing",
+    issue: "Giant transitioned from an OEM partner for foreign brands like Schwinn to building the world's largest proprietary bicycle brand while balancing OEM relationships.",
+    decision: "Should manufacturers compete directly with their own OEM customer base by launching proprietary brands?",
+    theories: ["OEM to OBM transition", "Channel conflict", "Brand equity"],
+    why: "It is a classic case of managing channel conflict and building brand assets from manufacturing capabilities.",
+    debate: "Should manufacturers compete directly with their own OEM customer base by launching proprietary brands?",
+    evidence: ["Schwinn cancelled its OEM relationship with Giant after Giant launched its own brand.", "Giant survived by building global consumer relationships and independent retail networks.", "OEM capability provided product-quality foundations that supported the brand premium."],
+  },
+  {
+    n: 26,
+    slug: "asus-rog-subbranding",
+    title: "ASUS Republic of Gamers Sub-Branding",
+    years: "2006-Present",
+    category: "Recent",
+    company: "ASUS",
+    issue: "ASUS established the Republic of Gamers (ROG) sub-brand to escape PC margin dilution and build a premium ecosystem across gaming hardware, mobile, and accessories.",
+    decision: "Is sub-branding or corporate branding more effective for sustaining growth in declining hardware sectors?",
+    theories: ["Brand architecture", "Sub-branding", "Gaming ecosystem strategy"],
+    why: "It shows how to use sub-branding to capture high-margin segments in commodity markets.",
+    debate: "Is sub-branding or corporate branding more effective for sustaining growth in declining hardware sectors?",
+    evidence: ["ROG sub-brand commands premium prices over standard ASUS components.", "The gaming community values distinct ROG aesthetics and performance branding.", "Sub-branding allowed ASUS to experiment with premium accessories without damaging the core brand utility."],
+  },
+  {
+    n: 27,
+    slug: "delta-power-systems",
+    title: "Delta Power Components to Green Systems",
+    years: "2010-Present",
+    category: "Recent",
+    company: "Delta Electronics",
+    issue: "Delta Electronics transitioned from a B2B component supplier of switching power supplies to an integrated industrial system solution provider in smart automation, EV charging, and green energy.",
+    decision: "Should component vendors take the risk of offering integrated systems, potentially competing with system-integrator customers?",
+    theories: ["Industrial transformation", "Systems integration", "B2B solution marketing"],
+    why: "It illustrates the path of component manufacturers migrating up the value chain to capture solution premiums.",
+    debate: "Should component vendors take the risk of offering integrated systems, potentially competing with system-integrator customers?",
+    evidence: ["Integrated solutions (like EV chargers) command higher margins than components.", "System integration requires building direct relations with corporate and municipal end-users.", "Offering systems can create channel conflict with existing OEM component buyers."],
+  },
+  {
+    n: 28,
+    slug: "eink-patent-acquisition",
+    title: "E Ink Patent Acquisition and Monopoly",
+    years: "2009-Present",
+    category: "Recent",
+    company: "E Ink Holdings",
+    issue: "E Ink acquired its key technology and patent portfolio from MIT spin-off E Ink Corporation, pivoting from LCD panel manufacturing to dominate the global electronic paper display market.",
+    decision: "Is buying intellectual property more sustainable than organic R&D for dominating high-tech markets?",
+    theories: ["M&A technology acquisition", "Patent portfolio strategy", "Niche monopoly"],
+    why: "It shows how strategic M&A and patent control can build a defensible technological monopoly.",
+    debate: "Is buying intellectual property more sustainable than organic R&D for dominating high-tech markets?",
+    evidence: ["E Ink holds a dominant market share in global electronic paper displays.", "Patent acquisition protected the company from fast follower clones.", "Expanding display applications to retail ESL and smart cities sustained growth beyond e-readers."],
+  },
+  {
+    n: 29,
+    slug: "evergreen-capital-allocation",
+    title: "Evergreen Marine Capital Allocation",
+    years: "2020-Present",
+    category: "Recent",
+    company: "Evergreen Marine",
+    issue: "Evergreen Marine generated record-breaking profits during the COVID-19 logistics boom, forcing a complex capital allocation choice between green transition, fleet expansion, and shareholder returns.",
+    decision: "Should cyclical shipping firms hold massive cash reserves or aggressively invest in fleet renewal during industry peaks?",
+    theories: ["Cyclical industry strategy", "Capital allocation", "Carbon transition"],
+    why: "It highlights the challenges of strategic decision-making and cash management in highly cyclical industries.",
+    debate: "Should cyclical shipping firms hold massive cash reserves or aggressively invest in fleet renewal during industry peaks?",
+    evidence: ["The shipping industry faces sharp boom-and-bust freight rate cycles.", "Investing in green-fueled vessels is required to meet environmental regulations.", "Excessive expansion during peak cycles risks future overcapacity and price crashes."],
+  },
 ];
 
 function mdText(value) {
@@ -453,6 +588,14 @@ function reportFile(c, ext) {
     19: "19_Costco_Report",
     20: "20_Peloton_Report",
     21: "21_Uber_Report",
+    22: "22_TSMC_Report",
+    23: "23_Foxconn_EV_Report",
+    24: "24_MediaTek_Report",
+    25: "25_Giant_Bicycles_Report",
+    26: "26_ASUS_ROG_Report",
+    27: "27_Delta_Electronics_Report",
+    28: "28_E_Ink_Report",
+    29: "29_Evergreen_Marine_Report",
   };
   return `${map[c.n]}.${ext}`;
 }
@@ -461,15 +604,16 @@ function indexMarkdown() {
   const titleToCasePath = new Map(cases.map((c) => [c.title, `{{ '/cases/${String(c.n).padStart(2, "0")}-${c.slug}/' | relative_url }}`]));
   const topicRows = [
     ["Ethics & Fraud", ["Theranos: The $9 Billion Fraud", "FTX Collapse and Sam Bankman-Fried", "Volkswagen Dieselgate", "Boeing 737 MAX Crashes"]],
-    ["Corporate Governance", ["WeWork: From $47 Billion to Bankruptcy", "ChatGPT and OpenAI Board Drama", "Meta's $50B Metaverse Bet", "FTX Collapse and Sam Bankman-Fried"]],
-    ["Turnaround & Transformation", ["LEGO's Near-Bankruptcy Turnaround", "Microsoft's Cultural Transformation"]],
-    ["Marketing & Branding", ["Coca-Cola's New Coke Disaster"]],
+    ["Corporate Governance", ["WeWork: From $47 Billion to Bankruptcy", "ChatGPT and OpenAI Board Drama", "Meta's $50B Metaverse Bet", "FTX Collapse and Sam Bankman-Fried", "Evergreen Marine Capital Allocation"]],
+    ["Turnaround & Transformation", ["LEGO's Near-Bankruptcy Turnaround", "Microsoft's Cultural Transformation", "Foxconn's EV Platform Transformation", "Delta Power Components to Green Systems"]],
+    ["Marketing & Branding", ["Coca-Cola's New Coke Disaster", "MediaTek Premium Chip Challenger", "Giant Bicycles OEM to Global Brand", "ASUS Republic of Gamers Sub-Branding"]],
     ["Pricing Strategy", ["Netflix Password Sharing Crackdown", "Uber Surge Pricing Ethics", "Airbnb Hidden Cleaning Fees", "Apple's App Store Tax vs. Epic Games", "Adobe's Subscription Model Shift"]],
     ["Crisis Management", ["Samsung Galaxy Note 7 Explosions", "Boeing 737 MAX Crashes"]],
-    ["Platform Economics", ["Apple's App Store Tax vs. Epic Games", "Twitter/X Under Elon Musk", "Airbnb Hidden Cleaning Fees", "Uber Surge Pricing Ethics"]],
-    ["Disruption", ["Blockbuster Rejects Netflix", "Kodak Invented the Digital Camera, Then Died"]],
+    ["Platform Economics", ["Apple's App Store Tax vs. Epic Games", "Twitter/X Under Elon Musk", "Airbnb Hidden Cleaning Fees", "Uber Surge Pricing Ethics", "Foxconn's EV Platform Transformation"]],
+    ["Disruption", ["Blockbuster Rejects Netflix", "Kodak Invented the Digital Camera, Then Died", "E Ink Patent Acquisition and Monopoly", "Foxconn's EV Platform Transformation"]],
     ["Labor & HR", ["Costco's Employee-First Model"]],
     ["Strategic Failure", ["WeWork: From $47 Billion to Bankruptcy", "Peloton's Pandemic Rise and Crash", "Meta's $50B Metaverse Bet", "Blockbuster Rejects Netflix"]],
+    ["Supply Chain & Operations", ["TSMC and Semiconductor Geopolitics", "Delta Power Components to Green Systems", "Evergreen Marine Capital Allocation"]],
   ];
   return `---
 layout: default
@@ -479,7 +623,7 @@ permalink: /
 
 # GMBA Case Study Library
 
-This site organizes 21 business cases for GMBA discussion classes. Each case is a Markdown study page connected to the shared [Business and Management Theories]({{ '/theories/' | relative_url }}) guide.
+This site organizes 29 business cases for GMBA discussion classes. Each case is a Markdown study page connected to the shared [Business and Management Theories]({{ '/theories/' | relative_url }}) guide.
 
 ## Cases
 
@@ -495,6 +639,7 @@ ${topicRows.map(([topic, titles]) => `| ${topic} | ${titles.map((title) => `[${m
 
 ## How to Use This Site
 
+- Download the complete volume of all 29 cases: [Complete Merged PDF Volume]({{ '/reports/GMBA_Case_Studies_Merged.pdf' | relative_url }}) | [Combined QMD Source]({{ '/reports/GMBA_Case_Studies_Merged.qmd' | relative_url }})
 - Start with a case page and read the overview, debate question, and evidence prompts.
 - Follow the theory links to understand the relevant GMBA frameworks.
 - Use the PDF report links when a printable classroom handout is needed.
@@ -724,5 +869,8 @@ for (const c of cases) {
   copyFileSync(reportFile(c, "pdf"), `docs/reports/${reportFile(c, "pdf")}`);
   copyFileSync(reportFile(c, "qmd"), `docs/reports/${reportFile(c, "qmd")}`);
 }
+
+copyFileSync("GMBA_Case_Studies_Merged.pdf", "docs/reports/GMBA_Case_Studies_Merged.pdf");
+copyFileSync("GMBA_Case_Studies_Merged.qmd", "docs/reports/GMBA_Case_Studies_Merged.qmd");
 
 console.log(`Generated ${cases.length} case pages in docs/cases`);

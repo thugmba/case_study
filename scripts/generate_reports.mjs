@@ -230,6 +230,54 @@ const cases = [
     theory: "Dynamic pricing, price-gouging ethics, behavioral economics", debate: "Is surge pricing fair, and should there be caps during emergencies?",
     refs: [...sources.pricing, ...sources.platform, ["Cohen, P., Hahn, R., Hall, J., Levitt, S., & Metcalfe, R. (2016). Using big data to estimate consumer surplus: The case of Uber. *NBER Working Paper No. 22627*. <https://doi.org/10.3386/w22627>", "Provides empirical evidence on Uber pricing, consumer surplus, and ride-hailing market design."], ["Uber. (n.d.). *How surge pricing works*. <https://www.uber.com/us/en/drive/driver-app/how-surge-works/>", "Documents Uber's public explanation of surge pricing mechanics for drivers and riders."]]
   },
+  {
+    n: 22, file: "22_TSMC_Report.qmd", title: "TSMC and Semiconductor Geopolitics", years: "2020-Present",
+    company: "TSMC", issue: "TSMC faced geopolitical pressure to diversify its manufacturing outside Taiwan, leading to the construction of advanced fabrication plants in the United States, Japan, and Europe while maintaining its core R&D in Taiwan.",
+    theory: "Operations strategy, global supply chain risk, geopolitics in business", debate: "Should TSMC prioritize domestic yield efficiency over global supply chain diversification?",
+    refs: [["Miller, C. (2022). *Chip war: The fight for the world's most critical technology*. Scribner.", "Provides the historical and geopolitical context of TSMC's role in the global semiconductor supply chain."], ["TSMC. (2023). *Annual reports*. <https://www.tsmc.com/english/investorRelations/annual_reports.htm>", "Provides primary financial and operational data for evaluating TSMC's global expansion costs."]]
+  },
+  {
+    n: 23, file: "23_Foxconn_EV_Report.qmd", title: "Foxconn's EV Platform Transformation", years: "2020-Present",
+    company: "Foxconn", issue: "Foxconn transitioned from consumer electronics assembly to the electric vehicle market, establishing the open-source MIH platform to modularize EV design and manufacturing.",
+    theory: "Corporate transformation, platform economics, diversification strategy", debate: "Can open-source platforms successfully commoditize contract manufacturing in the automotive sector?",
+    refs: [["Chesbrough, H. (2003). *Open innovation: The new imperative for creating and profiting from technology*. Harvard Business School Press.", "Provides the platform-openness and innovation theory to analyze Foxconn's MIH open-source EV strategy."], ["Hon Hai Precision Industry Co., Ltd. (2023). *Annual report*. <https://www.honhai.com/en-us/investor-relations/reports-presentations/annual-reports>", "Provides Foxconn's capital expenditures and strategic EV segment revenues."]]
+  },
+  {
+    n: 24, file: "24_MediaTek_Report.qmd", title: "MediaTek Premium Chip Challenger", years: "2021-Present",
+    company: "MediaTek", issue: "MediaTek launched its Dimensity processor series to shift from entry-level and mid-range mobile markets to direct competition with Qualcomm in the premium mobile chip segment.",
+    theory: "Competitive strategy, high-tech marketing, brand migration strategy", debate: "Can a high-volume, low-cost component manufacturer successfully reposition its brand to the premium segment?",
+    refs: [["Porter, M. E. (1985). *Competitive advantage: Creating and sustaining superior performance*. Free Press.", "Supports the cost-leadership vs. differentiation analysis of MediaTek's upward segment shift."], ["MediaTek Inc. (2023). *Corporate reports*. <https://www.mediatek.com/investor-relations/financial-information>", "Provides research and development spending metrics and mobile platform revenue breakdowns."]]
+  },
+  {
+    n: 25, file: "25_Giant_Bicycles_Report.qmd", title: "Giant Bicycles OEM to Global Brand", years: "1981-Present",
+    company: "Giant Manufacturing", issue: "Giant transitioned from an OEM partner for foreign brands like Schwinn to building the world's largest proprietary bicycle brand while balancing OEM relationships.",
+    theory: "OEM to OBM transition, channel conflict, brand equity", debate: "Should manufacturers compete directly with their own OEM customer base by launching proprietary brands?",
+    refs: [["Aaker, D. A. (1996). *Building strong brands*. Free Press.", "Provides the brand-equity framework used to evaluate Giant's transition to a global consumer brand."], ["Giant Manufacturing Co., Ltd. (2023). *Annual report*. <https://www.giant-bicycles.com/global/investors>", "Provides financial metrics comparing OEM revenues with branded segment margins."]]
+  },
+  {
+    n: 26, file: "26_ASUS_ROG_Report.qmd", title: "ASUS Republic of Gamers Sub-Branding", years: "2006-Present",
+    company: "ASUS", issue: "ASUS established the Republic of Gamers (ROG) sub-brand to escape PC margin dilution and build a premium ecosystem across gaming hardware, mobile, and accessories.",
+    theory: "Brand architecture, sub-branding, gaming ecosystem strategy", debate: "Is sub-branding or corporate branding more effective for sustaining growth in declining hardware sectors?",
+    refs: [["Keller, K. L. (1993). Conceptualizing, measuring, and managing customer-based brand equity. *Journal of Marketing, 57*(1), 1-22. <https://doi.org/10.1177/002224299305700101>", "Provides the customer-based brand equity framework used to evaluate ROG's brand premium."], ["ASUSTeK Computer Inc. (2023). *Investor relations reports*. <https://www.asus.com/us/about-asus/investor-relations/>", "Supplies revenue distribution and profitability figures for ASUS ROG gaming platforms."]]
+  },
+  {
+    n: 27, file: "27_Delta_Electronics_Report.qmd", title: "Delta Power Components to Green Systems", years: "2010-Present",
+    company: "Delta Electronics", issue: "Delta Electronics transitioned from a B2B component supplier of switching power supplies to an integrated industrial system solution provider in smart automation, EV charging, and green energy.",
+    theory: "Industrial transformation, systems integration, B2B solution marketing", debate: "Should component vendors take the risk of offering integrated systems, potentially competing with system-integrator customers?",
+    refs: [["Prahalad, C. K., & Hamel, G. (1990). The core competence of the corporation. *Harvard Business Review, 68*(3), 79-91.", "Supports the analysis of core capabilities in power conversion and how they translate to green energy systems."], ["Delta Electronics, Inc. (2023). *Annual report*. <https://www.deltaww.com/en-US/investors/annual-reports>", "Provides revenue segmentation across components, industrial automation, and green systems solutions."]]
+  },
+  {
+    n: 28, file: "28_E_Ink_Report.qmd", title: "E Ink Patent Acquisition and Monopoly", years: "2009-Present",
+    company: "E Ink Holdings", issue: "E Ink acquired its key technology and patent portfolio from MIT spin-off E Ink Corporation, pivoting from LCD panel manufacturing to dominate the global electronic paper display market.",
+    theory: "M&A technology acquisition, patent portfolio strategy, niche monopoly", debate: "Is buying intellectual property more sustainable than organic R&D for dominating high-tech markets?",
+    refs: [["Teece, D. J. (1986). Profiting from technological innovation: Implications for integration, collaboration, licensing and public policy. *Research Policy, 15*(6), 285-305. <https://doi.org/10.1016/0048-7333%2886%2990027-2>", "Provides the framework for assessing complementary assets and patent control rights."], ["E Ink Holdings Inc. (2023). *Corporate disclosures*. <https://www.eink.com/investor-relations>", "Provides royalty earnings, patent licensing revenues, and retail shelf-label market shares."]]
+  },
+  {
+    n: 29, file: "29_Evergreen_Marine_Report.qmd", title: "Evergreen Marine Capital Allocation", years: "2020-Present",
+    company: "Evergreen Marine", issue: "Evergreen Marine generated record-breaking profits during the COVID-19 logistics boom, forcing a complex capital allocation choice between green transition, fleet expansion, and shareholder returns.",
+    theory: "Cyclical industry strategy, capital allocation, carbon transition", debate: "Should cyclical shipping firms hold massive cash reserves or aggressively invest in fleet renewal during industry peaks?",
+    refs: [["Levinson, M. (2016). *The box: How the shipping container made the world smaller and the world economy economy bigger* (2nd ed.). Princeton University Press.", "Supplies history of containerization and maritime logistics cycles."], ["Evergreen Marine Corp. (Taiwan) Ltd. (2023). *Annual financial statements*. <https://www.evergreen-marine.com/>", "Provides capital expenditures, shipping vessel orders, and operating cash flows."]]
+  },
 ];
 
 function esc(s) {
