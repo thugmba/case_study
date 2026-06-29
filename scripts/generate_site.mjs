@@ -640,7 +640,7 @@ ${topicRows.map(([topic, titles]) => `| ${topic} | ${titles.map((title) => `[${m
 ## How to Use This Site
 
 - Start with a case page and read the overview, debate question, and evidence prompts.
-- Follow the theory links to understand the relevant GMBA frameworks.
+- Follow the theory links to understand the relevant frameworks.
 - Use the PDF report links when a printable classroom handout is needed.
 `;
 }

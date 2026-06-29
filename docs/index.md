@@ -61,5 +61,5 @@ This site organizes 29 business cases for GMBA discussion classes. Each case is 
 ## How to Use This Site
 
 - Start with a case page and read the overview, debate question, and evidence prompts.
-- Follow the theory links to understand the relevant GMBA frameworks.
+- Follow the theory links to understand the relevant frameworks.
 - Use the PDF report links when a printable classroom handout is needed.
